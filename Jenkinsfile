@@ -10,7 +10,7 @@ pipeline {
       steps {
         git branch: 'master',
         credentialsId: 'my_cred_id',
-        url: 'https://github.com/HoangPhu98/react-for-demo.git'
+        url: 'https://github.com/linhNL298/react-for-demo.git'
         sh "ls -la"
       }
     }
